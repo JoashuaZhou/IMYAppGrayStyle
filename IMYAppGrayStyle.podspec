@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license          = "MIT"
   s.author           = { 'Jianghuai Li' => 'li6185377@163.com' }
 
-  s.source           = { :git => 'https://github.com/li6185377/IMYAppGrayStyle.git', :tag => '1.0.2' }
+  s.source           = { :git => 'https://github.com/JoashuaZhou/IMYAppGrayStyle.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.ios.deployment_target = '9.0'
