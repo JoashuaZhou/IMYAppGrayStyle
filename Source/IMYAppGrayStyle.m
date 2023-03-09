@@ -64,7 +64,7 @@
     // 遍历所有window，给它们加上蒙版
     for (UIWindow *window in windows) {
         NSString *className = NSStringFromClass(window.class);
-        if ([className isEqualToString:@"UIRemoteKeyboardWindow"]){
+        if ([window conformsToProtocol:@protocol(UITextInputTraits)]) {
             return;
         }
         if (![className containsString:@"UIText"]) {
