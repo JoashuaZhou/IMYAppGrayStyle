@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IMYAppGrayStyle' 
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Turn on gray style.'
   s.description      = 'Turn on gray style.'
   
